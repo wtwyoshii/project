@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fashion and streetwear</title>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yoshi Atelier</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    <h1>Fashion and Designer</h1>
+
+  <section class="hero">
+    <video autoplay muted loop playsinline poster="media/hero-poster.jpg">
+      <source src="media/hero-video.mp4" type="video/mp4" />
+    </video>
+
+    <div class="hero-overlay">
+      <nav class="navbar">
+        <h1 class="logo">Yoshi</h1>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#collection">Collection</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero-content">
+        <h2>Modern. Timeless. Trendy.</h2>
+        <p>Designed for confidence and elegance</p>
+        <a href="#collection" class="btn">View Collection</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-content">
+      <h3>About the Designer</h3>
+      <p>
+        Yoshi Atelier blends modern silhouettes with timeless craftsmanship.
+      </p>
+    </div>
+  </section>
+
+  <section id="collection" class="collection">
+    <h3>Latest Collection</h3>
+    <div class="collection-grid">
+      <img src="media/collection-1.jpg">
+      <img src="media/collection-2.jpg">
+      <img src="media/collection-3.jpg">
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h3>Get in Touch</h3>
+    <p>Email: hello@Yoshiatelier.com</p>
+    <p>Instagram: @Yoshiatelier</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Yoshi Atelier</p>
+  </footer>
+
 </body>
 </html>
